@@ -15,7 +15,7 @@ with open(model_path, "rb") as f:
 data_path = os.path.join(os.path.dirname(__file__), "df.pkl")
 with open(data_path, "rb") as f:
     df = pickle.load(f)
-    
+
 # defind sidebar items
 app_mode = st.sidebar.selectbox("Select the type", ['Diabetes Predictor', 'Visualization'])
 
@@ -68,7 +68,8 @@ if app_mode == 'Diabetes Predictor':
     # --- Predict Button ---
     if st.button("Predict"):    
         if file is not None:
-             if hasattr(file, 'predict'):
+             if hasattr(pipe, 'predict'):
+                predict_output = pipe.predict(input_df)[0]
                 # Convert user inputs into a DataFrame
                 input_df = pd.DataFrame([user_inputs])
                 
