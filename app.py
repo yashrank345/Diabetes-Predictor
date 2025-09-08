@@ -74,7 +74,7 @@ if app_mode == 'Diabetes Predictor':
                 input_df = pd.DataFrame([user_inputs])
                 
                 try:
-                    predict_output = file.predict(input_df)[0]
+                    predict_output = pipe.predict(input_df)[0]
                     if predict_output == 1:
                        st.error("Your diabetes report is positive")
                     else:
