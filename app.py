@@ -4,11 +4,13 @@ import pickle
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.figure_factory as ff
+import os
 
+# Path relative to current script
+model_path = os.path.join(os.path.dirname(__file__), "pipe.pkl")
 
-
-# file load
-file = pickle.load(open(r'C:\Users\Lenovo\data science\coding colud\assignment\Diabetes Predictor\pipe.pkl','rb'))
+with open(model_path, "rb") as f:
+    pipe = pickle.load(f)
 df = pickle.load(open(r'C:\Users\Lenovo\data science\coding colud\assignment\Diabetes Predictor\df.pkl','rb'))
 
 # defind sidebar items
