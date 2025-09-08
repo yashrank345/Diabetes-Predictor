@@ -1,7 +1,6 @@
 streamlit
 pandas
 plotly
-pickle
 matplotlib
 sklearn
 imblearn
