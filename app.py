@@ -11,8 +11,11 @@ model_path = os.path.join(os.path.dirname(__file__), "pipe.pkl")
 
 with open(model_path, "rb") as f:
     pipe = pickle.load(f)
-df = pickle.load(open(r'C:\Users\Lenovo\data science\coding colud\assignment\Diabetes Predictor\df.pkl','rb'))
-
+# Load dataset
+data_path = os.path.join(os.path.dirname(__file__), "df.pkl")
+with open(data_path, "rb") as f:
+    df = pickle.load(f)
+    
 # defind sidebar items
 app_mode = st.sidebar.selectbox("Select the type", ['Diabetes Predictor', 'Visualization'])
 
