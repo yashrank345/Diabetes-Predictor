@@ -67,7 +67,7 @@ if app_mode == 'Diabetes Predictor':
         
     # --- Predict Button ---
     if st.button("Predict"):    
-        if file is not None:
+        if pipe is not None:
              if hasattr(pipe, 'predict'):
                 predict_output = pipe.predict(input_df)[0]
                 # Convert user inputs into a DataFrame
