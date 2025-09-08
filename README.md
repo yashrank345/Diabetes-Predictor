@@ -6,14 +6,14 @@ An interactive **Streamlit web application** that helps users:
 
 ---
 
-## 🚀 Features  
+## Features  
 
-### 🔮 Diabetes Predictor  
+###  Diabetes Predictor  
 - Input **medical parameters** such as Blood Pressure, BMI, Age, etc.  
 - Get **instant predictions** (Positive / Negative) using a trained ML pipeline.  
 - Displays health categories for **Blood Pressure** and **BMI** to guide inputs.  
 
-### 📊 Visualization  
+###  Visualization  
 Explore dataset insights through:  
 - Dataset preview & statistics  
 - Outcome distribution (Positive vs Negative)  
@@ -36,7 +36,7 @@ Explore dataset insights through:
 ---
 
 
-## 🛠️ Installation  
+## Installation  
 
 ### 1. Clone the repository  
 ```bash
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## ▶️ Usage  
+## Usage  
 
 1. Ensure that the trained model (`pipe.pkl`) and dataset (`df.pkl`) are in the project folder.  
 2. Run the Streamlit app:  
@@ -63,7 +63,7 @@ pip install -r requirements.txt
    Visualization → Explore dataset insights
 
 ---
-## 🧠 Model  
+## Model  
 
 - Built with a **scikit-learn pipeline**.  
 - Classification algorithms experimented with include:  
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 Future Improvements  
+## Future Improvements  
 
 - Add support for **live input fields** instead of only dropdowns.  
 - Deploy on **Streamlit Cloud**.  
@@ -92,7 +92,15 @@ pip install -r requirements.txt
 - Enable **CSV file upload** for batch predictions.  
 
 ---
-## 👨‍💻 Author  
+## Author  
 
 Developed by **Yash Rank** ✨  
+
+---
+## Deploy Link
+```bash
+https://diabetes-predictor-64gqpx95qnqdzqmtxtjabq.streamlit.app/
+```
+
+
 
