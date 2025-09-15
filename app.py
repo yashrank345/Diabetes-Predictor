@@ -96,7 +96,7 @@ if app_mode == 'Visualization':
            st.dataframe(df.head())
            st.write('### Stats report of dataset')
            st.write(df.describe(include = 'all'))
-           st.write('### shape of dataset')
+           
         
     #Diabetes Outcome Distribution    
     if visu_type == 'Diabetes Outcome Distribution':      
