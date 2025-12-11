@@ -1,4 +1,4 @@
-# 🩺 Diabetes Predictor App  
+#  Diabetes Predictor App  
 
 An interactive **Streamlit web application** that helps users:  
 - **Predict diabetes** based on medical parameters using a trained machine learning model.  
@@ -24,7 +24,7 @@ Explore dataset insights through:
 
 ---
 
-## 📂 Project Structure 
+##  Project Structure 
 ```bash
 ├── Diabetes Predictor.ipynb   # Jupyter Notebook (model training & analysis)  
 ├── app.py                     # Streamlit app for prediction & visualization  
@@ -92,11 +92,14 @@ pip install -r requirements.txt
 - Enable **CSV file upload** for batch predictions.  
 
 ---
-## Author  
 
-Developed by **Yash Rank** ✨  
+## Author
+**Created by @Yash**
+
+If you found this useful, consider leaving a ⭐ on the repository!
 
 ---
+
 ## Deploy Link
 ```bash
 https://diabetes-predictor-64gqpx95qnqdzqmtxtjabq.streamlit.app/
