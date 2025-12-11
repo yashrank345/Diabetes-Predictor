@@ -100,10 +100,7 @@ If you found this useful, consider leaving a ⭐ on the repository!
 
 ---
 
-## Deploy Link
-```bash
-https://diabetes-predictor-64gqpx95qnqdzqmtxtjabq.streamlit.app/
-```
+
 
 
 
